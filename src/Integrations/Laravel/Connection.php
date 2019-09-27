@@ -215,8 +215,8 @@ class Connection extends \Illuminate\Database\Connection
             $host,
             $port ?? null,
             $database ?? null,
-            $username ?? null,
-            $password ?? null,
+            $username === '' ? null : $username,
+            $password === '' ? null : $password,
             $options ?? null
         );
     }
