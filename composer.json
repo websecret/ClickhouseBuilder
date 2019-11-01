@@ -1,5 +1,5 @@
 {
-  "name": "the-tinderbox/clickhouse-builder",
+  "name": "websecret/clickhouse-builder",
   "description": "Clickhouse sql query builder",
   "authors": [
     {
